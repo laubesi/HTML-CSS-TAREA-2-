@@ -1,0 +1,80 @@
+html{
+    background-color:black;
+}
+
+.container{
+    margin: 40px;
+    width: 100%;
+    background-color:white;
+    border-top: 40px solid rgb(71, 71, 71);
+}
+
+.row{
+    width: 90%;
+    background-color: gray;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.col-33, .col-33-2, .col-33-3 {
+    width: 30%;
+    height: 300px;
+    background-color: darkgrey;
+    margin: 20px;
+    border-radius: 10px 10px 0 0;
+    background-image: url(https://assets.swappie.com/swappie-product-iphone-12-pro-max-graphite.png);
+    background-position: center;
+    background-size: 82%;
+}
+
+.col-33-2{
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-blue-select-2020?wid=470&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1604343704000);
+}
+
+.col-33-3{
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-red-select-2020?wid=834&hei=1000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1586574260319);
+}
+
+.sub1{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding:  20px;
+    box-sizing: border-box;
+}
+
+.sub1 h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.8rem;
+    color:white;
+}
+
+.sub2{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sub2 a  {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.sub2 a  button{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12 px;
+    border: none;
+    background-color:black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    color: blanchedalmond;
+}
+
+.sub2 a  button:hover{
+background-color: rgb(71, 71, 71);
+cursor: pointer;
+}
